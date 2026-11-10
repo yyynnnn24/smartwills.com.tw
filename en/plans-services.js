@@ -11,10 +11,10 @@
   const planData = {
     "chinese": {
       title: "SmartWills Plan",
-      intro: "Designed for residents of the Chinese mainland who want a simple and structured way to prepare their Will, appoint beneficiaries, executors and guardians, and make their wishes clear for the future.",
-      note: "The Will maker, Executor(s), Guardian(s), Witness(es) and Beneficiary(ies) are residents of the Chinese mainland.\n[A PRC Resident Identity Card number must be used to identify the particulars of these individuals.]",
+      intro: "Designed for Taiwan residents who want a simple and structured way to prepare their Will, appoint beneficiaries, executors and guardians, and make their wishes clear for the future.",
+      note: "The Will maker, Executor(s), Guardian(s), Witness(es) and Beneficiary(ies) are residents of Taiwan.\n[A Taiwan Resident Identity Card number must be used to identify the particulars of these individuals.]",
       names: ["SmartWills Basic", "SmartWills Advanced"],
-      prices: ["CNY 688", "CNY 1,388"],
+      prices: ["TWD 1,388", "TWD 6,488"],
       summaries: ["A straightforward Will plan with lump-sum distribution for simple and clear estate planning.", "A more detailed Will plan with itemised asset distribution for greater control and flexibility."],
       best: ["A straightforward Will plan with lump-sum distribution for simple and clear estate planning.", "Individuals who want to list specific assets and have greater detail and control over their estate planning."],
       buttonLabels: ["Start Your Plan Now", "Start Your Plan Now"],
@@ -25,12 +25,12 @@
     },
     "non-chinese": {
       title: "SmartWills Plus",
-      intro: "Designed for cases involving non-Chinese mainland residents, offering a more suitable Will-planning option when the Will maker or related parties include non-Chinese mainland residents.",
-      note: "If any among the Will maker, Executor(s), Guardian(s), Witness(es), or Beneficiary(ies) is a non-Chinese mainland residents,\n[International Passport Numbers and relevant country ID Number must be used to identify the particulars of these individuals.]",
+      intro: "Designed for cases involving non-Taiwan residents, offering a more suitable Will-planning option when the Will maker or related parties include non-Taiwan residents.",
+      note: "If any among the Will maker, Executor(s), Guardian(s), Witness(es), or Beneficiary(ies) is a non-Taiwan resident,\n[International Passport Numbers and relevant country ID Number must be used to identify the particulars of these individuals.]",
       names: ["SmartWills Basic+", "SmartWills Advanced+"],
-      prices: ["CNY 889", "CNY 1,489"],
-      summaries: ["A straightforward Will plan involving non-Chinese mainland residents, with simple lump-sum asset distribution.", "A comprehensive Will plan involving non-Chinese mainland residents, with detailed and itemised asset distribution."],
-      best: ["Non-Chinese mainland residents or families who need a simple Will with straightforward lump-sum distribution and clear beneficiary arrangements.", "Non-Chinese mainland residents or families who need more detailed estate planning, with itemised asset distribution and greater flexibility for complex arrangements."],
+      prices: ["TWD 4,089", "TWD 7,289"],
+      summaries: ["A straightforward Will plan involving non-Taiwan residents, with simple lump-sum asset distribution.", "A comprehensive Will plan involving non-Taiwan residents, with detailed and itemised asset distribution."],
+      best: ["Non-Taiwan residents or families who need a simple Will with straightforward lump-sum distribution and clear beneficiary arrangements.", "Non-Taiwan residents or families who need more detailed estate planning, with itemised asset distribution and greater flexibility for complex arrangements."],
       buttonLabels: ["Start Your Plan Now", "Start Your Plan Now"],
       buttonLinks: ["https://app.mysmartwills.com/?item_id=9", "https://app.mysmartwills.com/?item_id=11"],
       features: [[], []],
@@ -42,7 +42,7 @@
       intro: "Choose a bundled Will-writing package designed for couples, long-term flexibility, or more comprehensive estate-planning needs.",
       note: "Select the package that fits your needs, or speak with the SmartWills team for personalised guidance.",
       names: ["Couple Wills", "Lifetime Unlimited Wills"],
-      prices: ["CNY 1,480", "CNY 4,500"],
+      prices: ["TWD 7,180", "TWD 20,500"],
       summaries: isChinesePage
         ? ["遗产规划为两个个体提供完整的遗嘱解决方案,使家庭规划更加清晰,更有组织。", "通过遗嘱与遗嘱信托，为家庭与资产提供更全面的保障"]
         : ["A complete Will solution for two individuals, making family estate planning clearer and more organised.", "Flexible Will planning for two asset options, offering greater flexibility in protecting and arranging your assets."],
